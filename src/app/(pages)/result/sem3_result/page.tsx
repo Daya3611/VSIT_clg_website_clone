@@ -1,13 +1,3 @@
-// import React from 'react'
-
-// export default function page() {
-//   return (
-//     <section>
-//         <h2 className='text-2xl text-center mt-[60px] font-bold text-blue-800'>RESULT OF UG COURSES FOR SEMESTER-3 Regular & ATKT October 2024</h2>
-//     </section>
-//   )
-// }
-
 "use client"
 import React, { useState } from "react";
 
@@ -26,7 +16,7 @@ interface ResultRow {
   total: string | number;
 }
 
-const page: React.FC = () => {
+const Page: React.FC = () => {
   const [rollNo, setRollNo] = useState<string>("");
   const [studentData, setStudentData] = useState<StudentDetails | null>(null);
 
@@ -162,5 +152,5 @@ const page: React.FC = () => {
   );
 };
 
-export default page;
+export default Page;
 
