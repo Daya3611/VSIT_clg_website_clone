@@ -5,6 +5,7 @@ import {
     CarouselItem,
   } from "@/components/ui/carousel"
 import Link from 'next/link';
+import Image from 'next/image';
   
 const cource = [
     {
@@ -126,6 +127,17 @@ export function Hero3() {
                 <CarouselContent className='mt-4'>
                     <CarouselItem className='basis-1/3 px-4'>
                         <div className='items-center'>
+                            <Image src="https://vsit.edu.in/images/eminent/Dr.shashikumar%20chitre.jpg" alt="" width={350} height={300} className='w-[350px] h-[300px] items-center text-center' />
+                            <a href="" className='text-center'>
+                                <h2 className='text-3xl'>Dr. Shashikumar Chitre</h2>
+                                <p className='font-bold text-lg'>Padma Bhushan</p>
+                                <p className='text-justify px-5'>Indian Mathematician and Astrophysicist addressed VSITians on Origin of Life in the Universe</p>
+                            </a>
+                        </div>
+                    </CarouselItem>
+
+                    <CarouselItem className='basis-1/3'>
+                        <div className='items-center'>
                             <img src="https://vsit.edu.in/images/eminent/Dr.shashikumar%20chitre.jpg" alt="" className='w-[350px] h-[300px] items-center text-center' />
                             <a href="" className='text-center'>
                                 <h2 className='text-3xl'>Dr. Shashikumar Chitre</h2>
@@ -141,7 +153,7 @@ export function Hero3() {
                             <a href="" className='text-center'>
                                 <h2 className='text-3xl'>Dr. Shashikumar Chitre</h2>
                                 <p className='font-bold text-lg'>Padma Bhushan</p>
-                                <p className='text-justify px-5'>Indian Mathematician and Astrophysicist addressed VSITians on "Origin of Life in the Universe</p>
+                                <p className='text-justify px-5'>Indian Mathematician and Astrophysicist addressed VSITians on Origin of Life in the Universe</p>
                             </a>
                         </div>
                     </CarouselItem>
@@ -152,7 +164,7 @@ export function Hero3() {
                             <a href="" className='text-center'>
                                 <h2 className='text-3xl'>Dr. Shashikumar Chitre</h2>
                                 <p className='font-bold text-lg'>Padma Bhushan</p>
-                                <p className='text-justify px-5'>Indian Mathematician and Astrophysicist addressed VSITians on "Origin of Life in the Universe</p>
+                                <p className='text-justify px-5'>Indian Mathematician and Astrophysicist addressed VSITians on Origin of Life in the Universe</p>
                             </a>
                         </div>
                     </CarouselItem>
@@ -163,7 +175,7 @@ export function Hero3() {
                             <a href="" className='text-center'>
                                 <h2 className='text-3xl'>Dr. Shashikumar Chitre</h2>
                                 <p className='font-bold text-lg'>Padma Bhushan</p>
-                                <p className='text-justify px-5'>Indian Mathematician and Astrophysicist addressed VSITians on "Origin of Life in the Universe</p>
+                                <p className='text-justify px-5'>Indian Mathematician and Astrophysicist addressed VSITians on Origin of Life in the Universe</p>
                             </a>
                         </div>
                     </CarouselItem>
@@ -174,18 +186,7 @@ export function Hero3() {
                             <a href="" className='text-center'>
                                 <h2 className='text-3xl'>Dr. Shashikumar Chitre</h2>
                                 <p className='font-bold text-lg'>Padma Bhushan</p>
-                                <p className='text-justify px-5'>Indian Mathematician and Astrophysicist addressed VSITians on "Origin of Life in the Universe</p>
-                            </a>
-                        </div>
-                    </CarouselItem>
-
-                    <CarouselItem className='basis-1/3'>
-                        <div className='items-center'>
-                            <img src="https://vsit.edu.in/images/eminent/Dr.shashikumar%20chitre.jpg" alt="" className='w-[350px] h-[300px] items-center text-center' />
-                            <a href="" className='text-center'>
-                                <h2 className='text-3xl'>Dr. Shashikumar Chitre</h2>
-                                <p className='font-bold text-lg'>Padma Bhushan</p>
-                                <p className='text-justify px-5'>Indian Mathematician and Astrophysicist addressed VSITians on "Origin of Life in the Universe</p>
+                                <p className='text-justify px-5'>Indian Mathematician and Astrophysicist addressed VSITians on Origin of Life in the Universe</p>
                             </a>
                         </div>
                     </CarouselItem>
