@@ -130,7 +130,7 @@ export function Hero3() {
                             <a href="" className='text-center'>
                                 <h2 className='text-3xl'>Dr. Shashikumar Chitre</h2>
                                 <p className='font-bold text-lg'>Padma Bhushan</p>
-                                <p className='text-justify px-5'>Indian Mathematician and Astrophysicist addressed VSITians on "Origin of Life in the Universe</p>
+                                <p className='text-justify px-5'>Indian Mathematician and Astrophysicist addressed VSITians on Origin of Life in the Universe</p>
                             </a>
                         </div>
                     </CarouselItem>
