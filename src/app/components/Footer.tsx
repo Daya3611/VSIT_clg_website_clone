@@ -1,5 +1,4 @@
-import { url } from 'inspector'
-import { Building, Building2Icon, LocateFixedIcon, LocateIcon, MailIcon, MapIcon, MapPin, PhoneCallIcon } from 'lucide-react'
+import { Building, MailIcon, MapPin, PhoneCallIcon } from 'lucide-react'
 import React from 'react'
 
 // B.Sc.IT | B.Sc. Data Science | B.M.S | B.A.F | B.B.I | B.F.M | B.A. (M.M.C) | M.Sc.IT | M.Com(B & F) | M.Com(AA) | M.Com(Management) | M.A.(Entertainment,Media & Adevertising) | Ph.D

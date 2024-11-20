@@ -1,14 +1,10 @@
-import { secureHeapUsed } from 'crypto'
 import React from 'react'
 import {
     Carousel,
     CarouselContent,
     CarouselItem,
-    CarouselNext,
-    CarouselPrevious,
   } from "@/components/ui/carousel"
 import Link from 'next/link';
-import { url } from 'inspector';
   
 const cource = [
     {
