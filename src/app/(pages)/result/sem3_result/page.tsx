@@ -20,7 +20,7 @@ const Page: React.FC = () => {
   const [rollNo, setRollNo] = useState<string>("");
   const [studentData, setStudentData] = useState<StudentDetails | null>(null);
 
-  // Mock student data
+ 
   const students: StudentDetails[] = [
     {
       rollNo: "23302B0019",
@@ -82,14 +82,18 @@ const Page: React.FC = () => {
           </button>
         </div>
 
-        {!studentData && (
-          <p className="text-center text-red-500">
-            *In case of result not found, kindly check with the exam cell in
-            college
-          </p>
+        {rollNo && !studentData && (
+          <>
+            
+            <p className="text-center text-red-500">
+              *In case of result not found, kindly check with the exam cell in
+              college
+            </p>
+          </>
         )}
 
         {studentData && (
+            
           <>
             <div className="border border-gray-300 mb-6 p-4">
               <table className="w-full table-fixed border-collapse">

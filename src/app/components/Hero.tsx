@@ -101,7 +101,7 @@ export function Hero2() {
                 {features.map((feature, index) => (
                 <div
                     key={index}
-                    className={`${feature.color} text-white p-4 relative group h-[200px] rounded-xl`}
+                    className={`${feature.color} text-white p-4 relative group h-[200px] rounded-xl transition-all hover:rotate-2 hover:scale-105`}
                     style={{ backgroundImage: `url(${feature.img})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
                 >
                     <div className="bg-black bg-opacity-50 absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity rounded-xl">
@@ -127,7 +127,7 @@ export function Hero3() {
                 <CarouselContent className='mt-4'>
                     <CarouselItem className='basis-1/3 px-4'>
                         <div className='items-center'>
-                            <Image src="https://vsit.edu.in/images/eminent/Dr.shashikumar%20chitre.jpg" alt="" width={350} height={300} className='w-[350px] h-[300px] items-center text-center' />
+                            <Image src="/imgs/Dr.shashikumar chitre.jpg" alt="" width={350} height={300} className='w-[350px] h-[300px] items-center text-center' />
                             <a href="" className='text-center'>
                                 <h2 className='text-3xl'>Dr. Shashikumar Chitre</h2>
                                 <p className='font-bold text-lg'>Padma Bhushan</p>
@@ -138,7 +138,7 @@ export function Hero3() {
 
                     <CarouselItem className='basis-1/3'>
                         <div className='items-center'>
-                            <img src="https://vsit.edu.in/images/eminent/Dr.shashikumar%20chitre.jpg" alt="" className='w-[350px] h-[300px] items-center text-center' />
+                            <img src="/imgs/Dr.shashikumar chitre.jpg" alt="" className='w-[350px] h-[300px] items-center text-center' />
                             <a href="" className='text-center'>
                                 <h2 className='text-3xl'>Dr. Shashikumar Chitre</h2>
                                 <p className='font-bold text-lg'>Padma Bhushan</p>
@@ -149,7 +149,7 @@ export function Hero3() {
 
                     <CarouselItem className='basis-1/3'>
                         <div className='items-center'>
-                            <img src="https://vsit.edu.in/images/eminent/Dr.shashikumar%20chitre.jpg" alt="" className='w-[350px] h-[300px] items-center text-center' />
+                            <img src="/imgs/Dr.shashikumar chitre.jpg" alt="" className='w-[350px] h-[300px] items-center text-center' />
                             <a href="" className='text-center'>
                                 <h2 className='text-3xl'>Dr. Shashikumar Chitre</h2>
                                 <p className='font-bold text-lg'>Padma Bhushan</p>
@@ -160,7 +160,7 @@ export function Hero3() {
 
                     <CarouselItem className='basis-1/3'>
                         <div className='items-center'>
-                            <img src="https://vsit.edu.in/images/eminent/Dr.shashikumar%20chitre.jpg" alt="" className='w-[350px] h-[300px] items-center text-center' />
+                            <img src="/imgs/Dr.shashikumar chitre.jpg" alt="" className='w-[350px] h-[300px] items-center text-center' />
                             <a href="" className='text-center'>
                                 <h2 className='text-3xl'>Dr. Shashikumar Chitre</h2>
                                 <p className='font-bold text-lg'>Padma Bhushan</p>
@@ -171,7 +171,7 @@ export function Hero3() {
 
                     <CarouselItem className='basis-1/3'>
                         <div className='items-center'>
-                            <img src="https://vsit.edu.in/images/eminent/Dr.shashikumar%20chitre.jpg" alt="" className='w-[350px] h-[300px] items-center text-center' />
+                            <img src="/imgs/Dr.shashikumar chitre.jpg" alt="" className='w-[350px] h-[300px] items-center text-center' />
                             <a href="" className='text-center'>
                                 <h2 className='text-3xl'>Dr. Shashikumar Chitre</h2>
                                 <p className='font-bold text-lg'>Padma Bhushan</p>
@@ -182,7 +182,7 @@ export function Hero3() {
 
                     <CarouselItem className='basis-1/3'>
                         <div className='items-center'>
-                            <img src="https://vsit.edu.in/images/eminent/Dr.shashikumar%20chitre.jpg" alt="" className='w-[350px] h-[300px] items-center text-center' />
+                            <img src="/imgs/Dr.shashikumar chitre.jpg" alt="" className='w-[350px] h-[300px] items-center text-center' />
                             <a href="" className='text-center'>
                                 <h2 className='text-3xl'>Dr. Shashikumar Chitre</h2>
                                 <p className='font-bold text-lg'>Padma Bhushan</p>
@@ -267,7 +267,7 @@ export function Hero5(){
             </div>
             <div className='grid grid-cols-6 px-[90px] mt-[60px] gap-4 items-center '>
                 {company.map((item,index) => (
-                    <img src={item.url} alt="" key={index} />
+                    <Image src={item.url} alt="" key={index} width={150} height={150}  className='transition-all hover:rotate-3 hover:scale-110' />
                 ))}
             </div>
         </section>
