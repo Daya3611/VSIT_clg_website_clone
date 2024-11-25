@@ -92,12 +92,12 @@ export function Navbar2() {
   return(
     <div className='flex items-center text-center justify-evenly bg-neutral-800 text-white'>
         <div className='flex items-center text-center gap-5 text-lg py-2'>
-          <a href='/' className='navbar-main'>Home</a>
-          <a href='/' className='navbar-main'>About Us</a>
-          <a href='/' className='navbar-main'>Academics</a>
-          <a href='/' className='navbar-main'>Students@VSIT </a>
-          <a href='/' className='navbar-main'>Placements</a>
-          <a href='/' className='navbar-main'>Happenings@VSIT</a>
+          <a href='' className='navbar-main'>Home</a>
+          <a href='' className='navbar-main'>About Us</a>
+          <a href='' className='navbar-main'>Academics</a>
+          <a href='' className='navbar-main'>Students@VSIT </a>
+          <a href='' className='navbar-main'>Placements</a>
+          <a href='' className='navbar-main'>Happenings@VSIT</a>
           <div className='navbar-main '><Navbar/> </div>
         </div>
     </div>
