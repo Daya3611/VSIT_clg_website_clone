@@ -100,6 +100,10 @@ export default function Footer() {
         <div className='w-full bg-red-700 text-center'>
             <p className='text-gray-50'>© 2024, All Rights Reserved By Vidyalankar School of Information Technology 
                 <span className='pl-4'><a href="" className='hover:font-bold hover:text-yellow-300'>Terms & Conditions</a> | <a href="" className='hover:font-bold hover:text-yellow-300'>Privacy Policy</a></span>
+                
+            </p>
+            <p className='bg-yellow-500'>
+                Made by Daya3611 for practice purposes. This is not the official website of Vidyalankar School of Information Technology. Visit <a href="https://dayanandgawade.in" className='hover:font-bold hover:text-red-600'>dayanandgawade.in</a> for more information.
             </p>
         </div>
     </footer>
