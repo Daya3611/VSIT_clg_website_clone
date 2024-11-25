@@ -41,6 +41,25 @@ const Page: React.FC = () => {
         { subjectName: "Grand Total", internal: " ", theory: '200', total: "unsuccessful" },
       ],
     },
+    {
+      rollNo: "23302B0018",
+      studentName: "Haggu",
+      course: "B.Sc.IT",
+      semester: "III",
+      results: [
+        { subjectName: "Pythone Programing", internal: '7E', theory: '25E', total: '32E' },
+        { subjectName: "Pythone Programing practicale", internal: '--', theory: '--', total: '11E' },
+        { subjectName: "Data Structures", internal: '5E', theory: '20E', total: '25E' },
+        { subjectName: "Data Structures practicale", internal: '--', theory: '--', total: '9E' },
+        { subjectName: "Computer Network", internal: '2E', theory: '18E', total: '20E' },
+        { subjectName: "Computer Network practicle", internal: '--', theory: '--', total: '12E' },
+        { subjectName: "Oprating System", internal: '4E', theory: '26E', total: '30E' },
+        { subjectName: "Oprating System practicle", internal: '--', theory: '--', total: '15E' },
+        { subjectName: "Applied Mathematics", internal: '6E', theory: '24E', total: '30E' },
+        { subjectName: "Mobile Programming practile", internal: '--', theory: '--', total: '16E' },
+        { subjectName: "Grand Total", internal: " ", theory: '200', total: "unsuccessful" },
+      ],
+    },
     
   ];
 

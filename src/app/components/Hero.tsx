@@ -257,6 +257,24 @@ const company = [
     {   
         url:'https://vsit.edu.in/images/placement/CL12.png',
     },
+    {
+        url:'https://vsit.edu.in/images/placement/CL13.jpg'
+    },
+    {
+        url:'https://vsit.edu.in/images/placement/CL14.png'
+    },
+    {
+        url:'https://vsit.edu.in/images/placement/CL15.jpg'
+    },
+    {
+        url:'https://vsit.edu.in/images/placement/CL16.png'
+    },
+    {
+        url:'https://vsit.edu.in/images/placement/CL17.png'
+    },
+    {
+        url:'https://vsit.edu.in/images/placement/CL17.jpg'
+    }
 ]
 
 export function Hero5(){

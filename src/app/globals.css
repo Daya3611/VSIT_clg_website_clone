@@ -118,3 +118,6 @@ body {
 
 }
 
+.navbar-main{
+  ::before{content:""} &:hover::before{left:auto; right:0; duration:300;} ::before{height:1.5px; background-color:#f00;} &:hover{font-weight:bold;} ::before{width:0;} &:hover::before{width:100%;} ::before{transition:all;} ::before{position:absolute; left:0; bottom:-0.5px;}
+}
