@@ -4,8 +4,8 @@ import {
     CarouselContent,
     CarouselItem,
   } from "@/components/ui/carousel"
-import Image from 'next/image'
-import { Fullscreen } from 'lucide-react'
+
+
 
 const img = [
     {

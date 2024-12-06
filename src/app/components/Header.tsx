@@ -30,7 +30,7 @@ export default function Header() {
             <div className="marquee-content text-gray-900 flex">
               <p>Bachelors in Management Studies Admission Information Brochure</p>
               <p>
-                 |    Vidyalankar School of Information Technology has been re-accredited with 'A' Grade by NAAC (Cycle 2).
+                 |    Vidyalankar School of Information Technology has been re-accredited with {"'"}A{"'"} Grade by NAAC (Cycle 2).
               </p>
 
             </div>

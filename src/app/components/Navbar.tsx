@@ -6,7 +6,8 @@ import {
   SheetHeader,
   SheetTrigger,
 } from "@/components/ui/sheet"
-import { MenuIcon, PlusIcon } from 'lucide-react'
+import { PlusIcon } from 'lucide-react'
+// import { MenuIcon } from 'lucide-react'
 // import { PlusIcon } from 'lucide-react'
 const list = [
   {

@@ -30,7 +30,7 @@ export default function RootLayout({
         <Footer/>
         
 
-      <Script strategy='lazyOnload'>
+      <Script strategy='lazyOnload' id="copy-script">
       {`
           document.addEventListener("copy", (event) => {
         const selectedData = window.getSelection().toString()
