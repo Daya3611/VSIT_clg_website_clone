@@ -92,11 +92,11 @@ body {
 
 .marquee-content {
 
-  display: inline-block;
+  display: flex;
 
   padding-left: 100%;
 
-  animation: marquee 35s linear infinite;
+  animation: marquee 25s linear infinite;
 
 }
 

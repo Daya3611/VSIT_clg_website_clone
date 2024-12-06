@@ -29,7 +29,7 @@ function Popup({ isOpen, onClose }: PopupProps) {
             Close
         </button>
     </div>
-</div>
+        </div>
 
 
     );

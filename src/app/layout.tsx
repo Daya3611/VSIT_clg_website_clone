@@ -3,6 +3,7 @@ import { Bricolage_Grotesque } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Script from "next/script";
 
 const bricolage_grotesque = Bricolage_Grotesque({
   subsets: ["latin"],
@@ -27,6 +28,18 @@ export default function RootLayout({
         <Header/>
           {children}
         <Footer/>
+        
+
+      <Script strategy='lazyOnload'>
+      {`
+          document.addEventListener("copy", (event) => {
+        const selectedData = window.getSelection().toString()
+        event.clipboardData.setData("text/plain", " copy karna pap hai !!!!");
+        event.preventDefault();
+          });
+        `}
+      </Script>
+          
       </body>
     </html>
   );

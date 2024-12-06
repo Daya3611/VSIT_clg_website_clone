@@ -67,22 +67,22 @@ export default function Navbar() {
           </Sheet>
        </div>
 
-       <div className='block md:hidden'>
+       {/* <div className='block md:hidden'>
         <Sheet>
             <SheetTrigger className='flex gap-1'> <MenuIcon/> </SheetTrigger>
             <SheetContent>
               <SheetHeader>
-                {/* <SheetTitle>Title of sheet</SheetTitle> */}
+                
                 <SheetDescription>
                   
                   {list.map((item,index) => (
-                    <p key={index} className='text-xl text-black before:content-[""] hover:before:left-auto hover:before:right-0 hover:before:duration-300 before:h-[1.5px] before:bg-red-600 before:w-0 hover:before:w-full before:transition-all before:absolute relative before:left-0 before:-bottom-0.5 py-1 hover:font-bold hover:text-red-600'><a href={item.link}>{item.name}</a></p>
+                    <p key={index} className='text-lg text-black before:content-[""] hover:before:left-auto hover:before:right-0 hover:before:duration-300 before:h-[1.5px] before:bg-red-600 before:w-0 hover:before:w-full before:transition-all before:absolute relative before:left-0 before:-bottom-0.5 py-1 hover:font-bold hover:text-red-600 text-left'><a href={item.link}>{item.name}</a></p>
                   ))}
                 </SheetDescription>
               </SheetHeader>
             </SheetContent>
           </Sheet>
-       </div>
+       </div> */}
 
     </div>
   )

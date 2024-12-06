@@ -4,6 +4,8 @@ import {
     CarouselContent,
     CarouselItem,
   } from "@/components/ui/carousel"
+import Image from 'next/image'
+import { Fullscreen } from 'lucide-react'
 
 const img = [
     {
@@ -23,12 +25,11 @@ export default function Slider() {
         <Carousel>
             <CarouselContent className=''>
                 {img.map((item,index)=> (
-                    <CarouselItem className='rounded-3xl' key={index}><img src={item.url} alt=""  className='h-[500px] w-[100%] items-center object-fill px-3 py-3 rounded-[35px]' loading='lazy'/></CarouselItem>
+                    <CarouselItem className='rounded-3xl' key={index}><img src={item.url} alt=""  className='md:h-[500px] h-full w-[100%] items-center object-cover px-3 py-3 rounded-[35px]' loading='lazy'/></CarouselItem>
                 ))}
                 
             </CarouselContent>
-            {/* <CarouselPrevious />
-            <CarouselNext /> */}
+            
         </Carousel>
 
     </section>

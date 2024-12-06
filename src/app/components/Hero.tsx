@@ -70,14 +70,14 @@ const features = [
   ];
 
 
-export default function Hero() {
+export default function Courses() {
   return (
     <section>
         <div className=''>
             <h2 className='text-4xl text-center mt-9 font-bold'><span className='text-red-500'>Courses</span> Offered</h2>
-            <div className='grid grid-cols-3 px-[90px] gap-3 mt-4'>
+            <div className='grid grid-cols-1 w-full md:grid-cols-2 lg:grid-cols-3 px-9 md:px-[90px] gap-3 mt-4'>
                 {cource.map((item,index) => (
-                    <p className='bg-yellow-400 p-5 rounded-lg gap-5 text-center text-lg font-bold hover:text-red-600 hover:bg-yellow-300' key={index}>{item.name}</p>
+                    <p className='bg-yellow-400 p-5 rounded-lg gap-5 text-center md:text-lg font-bold hover:text-red-600 hover:bg-yellow-300  text-sm' key={index}>{item.name}</p>
                     
                 ))}
             </div>
@@ -87,15 +87,15 @@ export default function Hero() {
   )
 }
 
-export function Hero2() {
+export function Student_glimpses() {
     return(
         <section>
             <div>
                 <h2 className='text-4xl text-center mt-[60px] font-bold'><span className='text-red-500'>Glimpses of</span> Student Life</h2>
-                <p className='text-justify px-[90px] mt-2'>Vidyalankar offers a wide spectrum of co-curricular, extracurricular, and athletic opportunities in addition to academics, which stands on the pillars of many Student Clubs and Student Councils. The synaesthesia of sports, culture, literary and technical forums at VSIT harness the creative potential of students keeping in view the tastes of the Millennial Generation that shall equip the students as successful professionals and future global leaders.</p>
+                <p className='text-justify px-9 lg:px-[90px] mt-2'>Vidyalankar offers a wide spectrum of co-curricular, extracurricular, and athletic opportunities in addition to academics, which stands on the pillars of many Student Clubs and Student Councils. The synaesthesia of sports, culture, literary and technical forums at VSIT harness the creative potential of students keeping in view the tastes of the Millennial Generation that shall equip the students as successful professionals and future global leaders.</p>
             </div>
             <div>
-            <div className="grid grid-cols-4 gap-3 p-4 px-[90px]">
+            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-3 p-4 px-9 lg:px-[90px]">
                 
 
                 {features.map((feature, index) => (
@@ -115,12 +115,12 @@ export function Hero2() {
     )
 }
 
-export function Hero3() {
+export function Eminent() {
     return(
         <section>
             <div>
                 <h2 className='text-4xl text-center mt-[60px] font-bold'><span className='text-red-500'>Eminent</span> Personalities on Campus</h2>
-                <p className='text-justify px-[320px] mt-4'>Specially invited talks on the campus by distinguished stalwarts and Padma Awardees help to promote a global outreach, inspire and enrich young minds.</p>
+                {/* <p className='text-justify px-[320px] mt-4'>Specially invited talks on the campus by distinguished stalwarts and Padma Awardees help to promote a global outreach, inspire and enrich young minds.</p> */}
             </div>
             <div>
             <Carousel>
@@ -201,7 +201,7 @@ export function Hero3() {
     )
 }
 
-export function Hero4() {
+export function YT_videos() {
     return(
         <section>
             <div>
@@ -277,7 +277,7 @@ const company = [
     }
 ]
 
-export function Hero5(){
+export function Company(){
     return(
         <section>
             <div>
